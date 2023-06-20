@@ -127,11 +127,22 @@ info:
       nl: Verander woorden in kunst met verschillende stijlen en creatieve aanpassingen in een voortdurend groeiende bibliotheek.
 
    otra_api:
-     name: ChatgptProxy
-     description: ChatGPT Proxy Api
-     url: https://api.pawan.krd/v1
-     key: pk-TnvudZQQZQYJVlSTHKqHhEtaNvwoHUgFcqlRwqhaePbhsjpI
-     available_model: ["gpt-3.5-turbo", "gpt-4", "text-davinci-003"]
+    name: otra_api
+    description:
+      es: La API oficial.
+      ar: API الرسمية.
+      en: The official API.
+      jp: 公式API。
+      zh: 官方API。
+      de: Die offizielle API.
+      fr: L'API officielle.
+      ru: Официальный API.
+      pt: A API oficial.
+      it: L'API ufficiale.
+      nl: De officiële API.
+    url: https://api.pawan.krd/v1
+    key: pk-TnvudZQQZQYJVlSTHKqHhEtaNvwoHUgFcqlRwqhaePbhsjpI
+    available_model: ["gpt-3.5-turbo", "gpt-4", "text-davinci-003"]
 
   # "otra_api" debes añadirlo en available_api
   #(available_image_api y available_transcript si esa api soporta generación de imágenes y transcripciones)
