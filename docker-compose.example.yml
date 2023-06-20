@@ -24,20 +24,20 @@ services:
       - MONGODB_USERNAME=root
       - MONGODB_PASSWORD=GDT9MbJUTFHpyJyeS2JxzgkpYTjnrU8v
 
-      - TELEGRAM_TOKEN=6101.....
+      - TELEGRAM_TOKEN=#########
       - USER_WHITELIST=
       - CHAT_WHITELIST=
 
       - DIALOG_TIMEOUT=7200
       - TIMEOUT_ASK=True
       - OUTPUT_IMAGES=4
-      - FEATURE_IMAGE_READ=True
-      - FEATURE_IMAGE_GENERATION=True
+      - FEATURE_IMAGE_READ=False
+      - FEATURE_IMAGE_GENERATION=False
       - GENERATED_IMAGE_EXPIRATION_MINUTES=5
 
-      - FEATURE_TRANSCRIPTION=True
+      - FEATURE_TRANSCRIPTION=False
       - FEATURE_BROWSING=True
-      - FEATURE_DOCUMENT_READ=True
+      - FEATURE_DOCUMENT_READ=False
       - FEATURE_URL_READ=True
 
       - MAX_ITEMS_PER_PAGE=10
@@ -51,8 +51,8 @@ services:
       - REQUEST_TIMEOUT=7
       - REQUEST_MAX_RETRIES=3
 
-      - GPT4FREE_BING_U_COOKIE=1ic.......
-      - GPT4FREE_CHATGPT_SESSION_TOKEN=eyJhb....
+      - GPT4FREE_BING_U_COOKIE=
+      - GPT4FREE_CHATGPT_SESSION_TOKEN=
 
     volumes:
       - /doker/chatgptg/config:/config:ro
