@@ -24,9 +24,9 @@ services:
       - MONGODB_USERNAME=root
       - MONGODB_PASSWORD=GDT9MbJUTFHpyJyeS2JxzgkpYTjnrU8v
 
-      - TELEGRAM_TOKEN=#########
-      - USER_WHITELIST=
-      - CHAT_WHITELIST=
+      - TELEGRAM_TOKEN=6123208275:AAEKgLwn9Z6t3OsxnqZn4zk6tbuxmjF4Vcc
+      - USER_WHITELIST=Usernameisark
+      - CHAT_WHITELIST=Usernameisark
 
       - DIALOG_TIMEOUT=7200
       - TIMEOUT_ASK=True
