@@ -1,4 +1,4 @@
-available_api: ["openai", "you", "chatbase", "g4f", "evagpt4", "churchless"]
+available_api: ["otra_api"]
 available_image_api: ["openai", "imaginepy"]
 available_transcript: ["openai"]
 # debes declarar los api en el apartado de acá arriba
@@ -126,12 +126,12 @@ info:
       it: Trasforma le parole in arte con diversi stili e regolazioni creative in una biblioteca in costante crescita.
       nl: Verander woorden in kunst met verschillende stijlen en creatieve aanpassingen in een voortdurend groeiende bibliotheek.
 
-  # otra_api:
-  #   name: Otra
-  #   description: Test.
-  #   url: https://api.myapi.com/v1
-  #   key: sk-69420
-  #   available_model: ["gpt-3.5-turbo", "gpt-4", "text-davinci-003"]
+   otra_api:
+     name: ChatgptProxy
+     description: ChatGPT Proxy Api
+     url: https://api.pawan.krd/v1
+     key: pk-TnvudZQQZQYJVlSTHKqHhEtaNvwoHUgFcqlRwqhaePbhsjpI
+     available_model: ["gpt-3.5-turbo", "gpt-4", "text-davinci-003"]
 
   # "otra_api" debes añadirlo en available_api
   #(available_image_api y available_transcript si esa api soporta generación de imágenes y transcripciones)
